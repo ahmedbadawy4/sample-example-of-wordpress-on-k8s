@@ -4,7 +4,7 @@
 
 Create a Secret for MySQL Password:
   
-kubectl create secret generic mysql-pass --from-literal=password=YOUR_PASSWORD
+`kubectl create secret generic mysql-pass --from-literal=password=YOUR_PASSWORD`
 
 Deploy Volumes:
   
