@@ -1,4 +1,4 @@
-# This projecr describe how to install wordpress on kubernetes 
+# This project describe how to install wordpress on kubernetes 
 
 # Wordpress Deployment on k8s:
 
