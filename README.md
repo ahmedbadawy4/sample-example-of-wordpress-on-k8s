@@ -8,16 +8,16 @@ Create a Secret for MySQL Password:
 
 Deploy Volumes:
   
-kubectl apply -f volumes/
+`kubectl apply -f volumes/`
 
 Deploy MySQL:
   
-kubectl apply -f mysql-manifests/
+`kubectl apply -f mysql-manifests/`
 
 Deploy WordPress:
   
-kubectl apply -f wordpress-manifests/
+`kubectl apply -f wordpress-manifests/`
 
-Run the following command to get the IP Address for the WordPress Service:
+Run the following command to get the IP Address for the WordPress Service:`
   
-minikube service wordpress --url
+`minikube service wordpress --url`
